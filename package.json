@@ -1,0 +1,20 @@
+{
+  "name": "nx-nohoist-repro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Ian Gilham",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "nx": "^15.9.2"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ],
+    "nohoist": [
+      "*",
+      "**"
+    ]
+  }
+}

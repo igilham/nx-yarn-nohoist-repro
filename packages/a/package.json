@@ -1,0 +1,12 @@
+{
+  "name": "a",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Ian Gilham",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "mkdir -p dist && cp index.js dist/",
+    "test": "echo TEST"
+  }
+}
